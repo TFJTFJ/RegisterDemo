@@ -18,4 +18,8 @@ node('master'){
     stage('Publish unit test results'){
         nunit testResultsPattern: 'TestResult.xml'
     }
+    
+    stage('Bragging'){
+        echo "We did it!"
+    }
 }
