@@ -12,20 +12,6 @@ namespace RegisterDemo.Test.Unit
     [TestFixture]
     class RegisterDemoUnitTest
     {
-        [Test]
-        public void Test1()
-        {
-            var uut = new Register();
-            Assert.That(uut.GetNItems(), Is.Zero);
-        }
-
-        [Test]
-        public void Test2()
-        {
-            var uut = new Register();
-            Assert.That(uut.GetTotal(), Is.Zero);
-        }
-
 
     }
 }
