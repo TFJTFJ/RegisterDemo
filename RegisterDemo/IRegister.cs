@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace RegisterDemo
 {
-    interface IRegister
+    public interface IRegister
     {
         void AddItem(double item);
         int GetNItems();
